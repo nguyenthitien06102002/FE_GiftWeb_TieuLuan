@@ -1,0 +1,41 @@
+.productTopic{
+    background: #fff;
+    padding: 20px;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: rgb(3 0 71 / 9%) 0px 1px 3px;
+    margin: 10px;
+     
+  display: flex; /* Sử dụng flexbox để căn chỉnh nội dung */
+  flex-direction: column; /* Căn chỉnh nội dung theo chiều dọc */
+  justify-content: space-between; /* Canh giữa nội dung theo chiều dọc */
+}
+.productTopic img {
+    width: 100%;
+    height: 200px !important;
+    object-fit: contain;
+    cursor: pointer;
+    object-fit: cover;
+}
+.productTopic h3 {
+    margin: 10px 0;
+    font-weight: 500;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.productTopic .rate i {
+    font-size: 15px;
+    color: #ffcd4e;
+    margin: 5px 5px 5px 0;
+}
+
+.productTopic .price {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    color: black;
+}
+.sectionStyle {
+    padding-top: 0px !important;
+}

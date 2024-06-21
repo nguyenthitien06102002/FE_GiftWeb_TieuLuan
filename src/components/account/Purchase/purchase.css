@@ -1,0 +1,9 @@
+.styleName{
+    color: black;
+    margin-right: 15px;
+    margin: 10px;
+    text-decoration: none;
+}
+.styleName:hover{
+    color: #FF6666;
+}

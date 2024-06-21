@@ -1,0 +1,100 @@
+.wrapper {
+  text-align: center;
+  background-color: white;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 25px;
+  background: #f3f5f9;
+  margin: 20px auto;
+}
+
+.wrapper .row {
+  justify-content: center;
+}
+
+.wrapper .feature {
+  padding: 10px;
+  border: 4px solid #ffffff;
+  border-radius: 8%;
+}
+
+.wrapper .feature h3 {
+  font-size: 18px;
+  font-weight: 500;
+  width: fit-content;
+  margin: 0 auto !important;
+}
+
+.wrapper p {
+  font-size: 15px;
+  margin-top: 20px;
+}
+/* .imgCategories {
+  border-radius: 10px;
+  width: 100%;
+  height: 250px;
+  margin: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+.image-containerCategories {
+  overflow: hidden;
+  
+}
+
+
+
+
+.imgCategories:hover {
+  transform: scale(1.1);
+} */
+
+.image-containerCategories {
+  overflow: hidden; /* Ẩn phần nằm ngoài vùng chứa */
+  border-radius: 10px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.imgCategories {
+  border-radius: 10px;
+  width: 100%;
+  height: 250px; 
+  transition: transform 0.3s ease; /* Thêm hiệu ứng chuyển động */
+}
+
+.image-containerCategories:hover img {
+  transform: scale(1.1); /* Không thay đổi kích thước khi hover */
+}
+
+.left-align {
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+.overlay-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.2); 
+}
+
+.text-over-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  padding: 10px;
+  font-size: 20px; 
+}

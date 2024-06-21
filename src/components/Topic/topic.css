@@ -1,0 +1,26 @@
+.topic {
+    background: rgb(255, 255, 255, 0.0);
+    padding: 10px;
+    position: relative;
+    /* border-radius: 8px; */
+    /* box-shadow: rgb(3 0 71 / 9%) 0px 1px 3px; */
+    margin: 10px;
+}
+.topic img {
+    width: 100%;
+    height: 100px !important;
+    /* object-fit: contain; */
+    cursor: pointer;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.topic.new img {
+    transition: transform 0.3s ease;
+  }
+  
+  .topic.new img:hover {
+    transform: scale(1.1);
+  }
+  .styleBottom{
+    padding-bottom: 0px!important;
+  }

@@ -1,0 +1,55 @@
+.settings {
+    width: 450px;
+    height: 450px;
+    padding: 20px;
+    cursor: pointer;
+    box-sizing: none;
+    
+    
+  }
+  
+  @media (max-width: 1200px) {
+    .settings {
+        
+        width: 300px!important;
+        height: 300px!important;
+    }
+}
+@media (max-width: 1000px) {
+    .settings {
+        
+        width: 250px!important;
+        height: 250px!important;
+    }
+}
+@media (max-width: 480px) {
+    .settings {
+        
+        width: 350px!important;
+        height: 350px!important;
+    }
+}
+@media (max-width: 350px) {
+    .settings {
+        
+        width: 250px!important;
+        height: 250px!important;
+    }
+}
+.slider-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; 
+  }
+  .settings img {
+    border: none; /* Bỏ border cho ảnh */
+}
+
+.settings img:focus {
+    outline: none; /* Bỏ đường viền khi ảnh được focus */
+}
+
+.box {
+    box-sizing: none!important;
+}
